@@ -92,3 +92,8 @@ sw.*
 yalc.lock
 .shopware-pwa
 /static
+
+#ive excluded this two so it can be configured on the server
+nuxt.config.js
+
+shopware-pwa.config.js
