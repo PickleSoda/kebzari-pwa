@@ -1,5 +1,12 @@
 {
-  "sections": {},
-  "blocks": {},
-  "elements": {}
+  "sections": {
+    "sidebar": "CmsSectionSidebar60"
+  },
+  "blocks": {
+    "blog-listing":"CmsBlockBlogListing"
+  },
+  "elements": {
+    "blog":"CmsElementBlogListing",
+    "listing":"CmsElementBlogCard"
+  }
 }
