@@ -17,7 +17,6 @@
   --boxed-mode-max-width: 1366px;
   --bottom-navigation-height: 3.35rem;
   
-  // --font-family--primary: "Academy-RUS";
 }
 html {
   overflow-x: hidden;
@@ -105,4 +104,27 @@ body {
 }
 .sw-breadcrumbs{
   padding: 0.5rem !important;
+}
+.sw-product-card{
+  width: 400px !important;
+}
+.sf-image{
+  object-fit: contain;
+}
+.sf-product-card{
+  --product-card-max-width:  30rem !important;
+}
+.sw-product-card{
+  --image-width: 300px !important;
+}
+.sw-image-slider__item{
+  max-height: 50rem;
+  object-fit: contain;
+}
+.product-carousel {
+  &__product {
+    .sw-product-card{
+      --image-width: 180px !important;
+    }
+  }
 }
