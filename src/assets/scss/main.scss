@@ -105,9 +105,6 @@ body {
 .sw-breadcrumbs{
   padding: 0.5rem !important;
 }
-.sw-product-card{
-  width: 400px !important;
-}
 .sf-image{
   object-fit: contain;
 }
@@ -116,15 +113,4 @@ body {
 }
 .sw-product-card{
   --image-width: 300px !important;
-}
-.sw-image-slider__item{
-  max-height: 50rem;
-  object-fit: contain;
-}
-.product-carousel {
-  &__product {
-    .sw-product-card{
-      --image-width: 180px !important;
-    }
-  }
 }

@@ -7,6 +7,8 @@
   },
   "elements": {
     "blog":"CmsElementBlogListing",
-    "listing":"CmsElementBlogCard"
+    "listing":"CmsElementBlogCard",
+    "image-slider": "CmsElementImageSlider",
+    "product-slidery":"CmsElementProductSlider"
   }
 }

@@ -53,4 +53,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@import "@/cms/settings.scss";
+
+.sw-image-slider__item{
+  height:75vh;
+}
+</style>
