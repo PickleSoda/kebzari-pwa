@@ -244,7 +244,6 @@ $col-prod-1: 1 0 $mx-photo-wth-1;
   justify-content: center;
   position: relative;
   min-height: var(--spacer-xl);
-
   &__loader {
     margin-top: var(--spacer-sm);
     position: absolute;
@@ -303,12 +302,12 @@ $col-prod-1: 1 0 $mx-photo-wth-1;
     }
 
     @include for-desktop {
-      flex: $col-prod-4;
+      flex: $col-prod-3;
       padding: var(--spacer-xs);
     }
 
     @include for-desktop-big {
-      flex: $col-prod-4;
+      flex: $col-prod-3;
       padding: var(--spacer-base);
     }
   }
@@ -386,7 +385,7 @@ $col-prod-1: 1 0 $mx-photo-wth-1;
   }
 
   @include for-desktop-big {
-    max-width: $mx-photo-wth-4 !important;
+    max-width: $mx-photo-wth-3 !important;
   }
 }
 </style>

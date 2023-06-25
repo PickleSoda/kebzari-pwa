@@ -109,8 +109,16 @@ body {
   object-fit: contain !important;
 }
 .sf-product-card{
-  --product-card-max-width:  30rem !important;
+  --product-card-max-width:  432px !important;
+  max-width: 100% !important;
+  .sf-product-card__title, .sf-product-card__price{
+    text-align: center !important;
+    display: block;
+  }
+
 }
 .sw-product-card{
-  --image-width: 300px !important;
+  --image-width: 100% !important;
+  // --image-height:500px !important;
+  width: var(--image-width, var(--_image-width))
 }
