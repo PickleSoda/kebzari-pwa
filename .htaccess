@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RedirectMatch ^/$ /git/
+
