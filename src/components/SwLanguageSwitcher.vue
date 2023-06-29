@@ -58,9 +58,9 @@ export default {
       cursor: pointer;
       background: var(--c-light);
     }
-    ::v-deep .sf-select__option:first-child{
-      display: none;
-    }
+    // ::v-deep .sf-select__option:first-child{
+    //   display: none;
+    // }
   }
 }
 </style>
