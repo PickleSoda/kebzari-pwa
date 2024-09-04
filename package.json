@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "build": "shopware-pwa build",
-    "comment": "start: nuxt start",
     "dev": "shopware-pwa dev",
     "generate": "nuxt generate",
     "lint": "prettier --write '*.{js,vue}'",
-    "start": "yarn && yarn build --ci && node scripts/init.js --disable-host-check --public shopware-pwa.test",
+    "start": "nuxt start",
     "test": "jest"
   },
   "resolutions": {

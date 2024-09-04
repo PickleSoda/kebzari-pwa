@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "shopware-pwa-build-project",
+      "exec_mode": "cluster",
+      "autorestart": true,
+      "max_memory_restart": "1G",
+      "instances": "max", 
+      "script": "./node_modules/nuxt/bin/nuxt.js",
+      "args": "start"
+    }
+  ]
+ }
+ 
